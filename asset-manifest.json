@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.4db87076.css",
-    "main.js": "/react-gh-pages/static/js/main.940ceb66.js",
-    "static/media/itachi.jpg": "/react-gh-pages/static/media/itachi.ddda0cf9250855c8b03e.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.4db87076.css.map": "/react-gh-pages/static/css/main.4db87076.css.map",
-    "main.940ceb66.js.map": "/react-gh-pages/static/js/main.940ceb66.js.map"
+    "main.css": "/reactjs-itachi-uchicha/static/css/main.4db87076.css",
+    "main.js": "/reactjs-itachi-uchicha/static/js/main.82fcddb9.js",
+    "static/media/itachi.jpg": "/reactjs-itachi-uchicha/static/media/itachi.ddda0cf9250855c8b03e.jpg",
+    "index.html": "/reactjs-itachi-uchicha/index.html",
+    "main.4db87076.css.map": "/reactjs-itachi-uchicha/static/css/main.4db87076.css.map",
+    "main.82fcddb9.js.map": "/reactjs-itachi-uchicha/static/js/main.82fcddb9.js.map"
   },
   "entrypoints": [
     "static/css/main.4db87076.css",
-    "static/js/main.940ceb66.js"
+    "static/js/main.82fcddb9.js"
   ]
 }
