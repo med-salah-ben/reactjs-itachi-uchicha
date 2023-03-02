@@ -15,6 +15,7 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
+      <div className="main">
       <Carousel>
       <Carousel.Item>
         <img
@@ -54,26 +55,26 @@ function App() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    <div className="container">
+    <div className="main_container">
     <div className="cards">
     <Card className="cardAnime" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images4.alphacoders.com/221/221968.jpg" />
+      <Card.Img className="cardImgs" variant="top" src="https://images4.alphacoders.com/221/221968.jpg" />
       <Card.Body>
         <Card.Title>Kakashi Hatake</Card.Title>
         <Card.Text>
-        Kakashi Hatake Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Kakashi Hatake is a fictional character in the Naruto manga and anime series  . In the story, Kakashi is the teacher of Team 7, 
+        consisting of the series' primary characters, Naruto Uzumaki.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
       </Card.Body>
     </Card>
     <Card className="cardAnime" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images7.alphacoders.com/303/303042.png" />
+      <Card.Img variant="top" src="https://images7.alphacoders.com/303/303042.png"  />
       <Card.Body>
         <Card.Title>NARUTO & KURAMA</Card.Title>
         <Card.Text>
-        NARUTO & KURAMA Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        Kurama is a character in the Naruto series, and one of the Tailed Beasts,
+        formerly sealed inside Naruto Uzumaki, the main character in the Naruto anime and manga series.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
       </Card.Body>
@@ -83,14 +84,14 @@ function App() {
       <Card.Body>
         <Card.Title>Utchiha Clan Mark </Card.Title>
         <Card.Text>
-        Utchiha Clan Mark  Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        The Uchiha clan is one of the four noble clans of Konohagakure,
+         reputed to be the village's strongest because of their Sharingan and natural battle prowess.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
       </Card.Body>
     </Card>
     </div>
-    <Form style={{margin:"100px 30px" , padding:"10px 20px 100px 10px"}}>
+    <Form className="form_cont">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label style={{color:"white"}}>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
@@ -110,6 +111,7 @@ function App() {
         Submit
       </Button>
     </Form>
+    </div>
     </div>
     </div>
   );
