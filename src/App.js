@@ -5,13 +5,13 @@ import './App.css';
 function App() {
   return (
     <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar className="appNav" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand>Uchiha</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link >Home</Nav.Link>
+            <Nav.Link>Details</Nav.Link>
             <Nav.Link >Contact</Nav.Link>
-            <Nav.Link >Details</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
@@ -55,7 +55,7 @@ function App() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    <div className="main_container">
+    <div className="main_container" >
     <div className="cards">
     <Card className="cardAnime" style={{ width: '18rem' }}>
       <Card.Img className="cardImgs" variant="top" src="https://images4.alphacoders.com/221/221968.jpg" />
